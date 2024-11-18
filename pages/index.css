@@ -1,3 +1,11 @@
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -5,4 +13,239 @@
   font-family: Inter, Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
+  background-color: #ffffff;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+  background-image: url(../images/background_header.svg);
+  background-size: cover;
+}
+
+.nav {
+  /* Add flex properties here */
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  position: relative;
+  left: 30px;
+  top: -10px;
+}
+
+.nav__links {
+  /* Reset default list styles here */
+  display: flex;
+  margin: 0px 0px 0px;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav__link {
+  color: #000000;
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Inter";
+}
+
+.header__title {
+  max-width: 729px;
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 500;
+  margin: 183px 80px 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  letter-spacing: -0.6px;
+}
+
+.header__span-accent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #3f96f3;
+  display: block;
+}
+
+.header__description {
+  max-width: 650px;
+  margin: 32px 80px 0;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  z-index: 1;
+  position: absolute;
+  width: 646px;
+  height: 568px;
+  top: 135px;
+  right: 20px;
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
+}
+
+.header_paragraph {
+  margin: 0px 10px 0px 80px;
+  padding: 2px;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__address {
+  margin: 0;
+  color: #838383;
+}
+
+.recipes {
+  padding: 100px 80px 215px;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: #0a2750;
+  background-size: cover;
+  background-image: url(../images/background_recipes.svg);
+}
+
+.recipes__video-caption {
+  list-style-type: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.recipes__title {
+  max-width: 580px;
+  margin: 0px 80px 0px;
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.recipes__subtitle {
+  max-width: 430px;
+  margin: 24px 80px 0px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.recipes__videos {
+  display: flex;
+  justify-content: center;
+  height: 480px;
+  width: 273px;
+  gap: 40px;
+  margin-top: 80px;
+}
+
+.recipes__cover {
+  background-color: #2f80ed;
+  background-size: cover;
+  background-image: url(../images/background_recipes.svg);
+}
+
+.events__content {
+  flex-basis: 580px;
+}
+
+.events__title {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  margin: 32px 0 0;
+}
+
+.events__info-section {
+  margin-top: 32px;
+}
+
+.event-info__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.event-info__icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.event-info__icon_type_calendar {
+  background-image: url(../images/icon_calendar.svg);
+}
+
+.event-info__icon_type_pin {
+  background-image: url(../images/icon_pin.svg);
+}
+
+.event-info__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__description {
+  margin: 40px 0 60px;
+}
+
+.events__more {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.events__image {
+  /* max-width: 100%; */
+}
+
+.person {
+  /* position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px; */
 }
