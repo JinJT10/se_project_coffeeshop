@@ -388,14 +388,14 @@ title {
 .button-container,
 .checkbox-container {
   display: flex;
-  justify-content: center; /* Centers the content horizontally */
+  justify-content: center;
   align-items: center;
   margin-top: 22px;
-  margin-left: 30px; /* Adds space above */
+  margin-left: 30px;
 }
 
 .checkbox-container label {
-  margin: 0px 8px; /* Adds space between checkbox and label */
+  margin: 0px 8px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
