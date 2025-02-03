@@ -37,13 +37,13 @@
   display: flex;
   max-width: 660px;
   margin: 0;
-  margin-top: 25px;
+  margin-top: 19px;
   flex-direction: column;
   gap: 20px;
 }
 
 .about__paragraph {
-  font-family: "Noto Serif", Arial, sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

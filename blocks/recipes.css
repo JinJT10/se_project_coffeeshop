@@ -1,5 +1,5 @@
 .recipes {
-  padding: 100px 70px 215px;
+  padding: 100px 80px 215px;
   box-sizing: border-box;
   color: #ffffff;
   background-color: #0a2750;
@@ -59,4 +59,5 @@
 .recipes__iframe {
   height: 273px;
   width: 480px;
+  margin-bottom: 24px;
 }
